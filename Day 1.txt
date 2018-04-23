@@ -127,7 +127,15 @@ public class HttpServlet extends GenericServlet
 			doGet()
 			doPost()
 
-
+Gender 
+		<input type="radio" name="gender" value="Male"/> Male
+		<input type="radio" name="gender" value="Female"/> female
+		<br/>
+	Hobbies
+		<input type="checkbox" name="hobbies" value="Watching"/> Watching
+		<input type="checkbox" name="hobbies" value="Playing"/> Playing
+		<input type="checkbox" name="hobbies" value="Singing"/> Singing
+		<br/>
 
 			
 
@@ -162,6 +170,29 @@ destroy() method -> at the time of unloading the application or stopping the
 web server
 
 a. will be called by webserver to remove the servlet from web server
+
+
+
+
+
+
+
+			JSP  (Dynamic web pages)
+HTML's are static web pages
+
+Java Server Pages, it is similar to html. 
+But, JSP's can display dynamic information 
+
+
+<%= request.getAttribute("loginErrorMessage") %>
+
+
+Diffence between ServletConfig, HttpServletRequest, HttpSession and ServletContext
+
+
+HttpSession -> used to store the information which will be availale throorugh out the user session
+
+
 
 
 
