@@ -1,0 +1,236 @@
+https://github.com/Kasvi-Technologies/Advanced-Java
+
+To run web applications, you need to have either web server or application servers
+
+
+Web Server
+	Apache tomcat
+
+
+Application Servers
+
+	Jboss
+	Weblogic
+	Websphere
+
+
+
+WebContent\WEB-INF\classes
+
+
+Apr 23, 2018 10:25:02 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:MyAmazon' did not find a matching property.
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 30 2017 16:26:50 UTC
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.48.0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_161
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48\endorsed
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Apr 23, 2018 10:25:02 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\CCM;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Perforce;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\akanchar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\utils\eclipse-jee-neon-3-win32-x86_64\eclipse;;.
+Apr 23, 2018 10:25:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 23, 2018 10:25:04 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 23, 2018 10:25:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Apr 23, 2018 10:25:04 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 23, 2018 10:25:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3784 ms
+Apr 23, 2018 10:25:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2018 10:25:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.48
+Apr 23, 2018 10:25:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Apr 23, 2018 10:25:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Apr 23, 2018 10:25:05 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1773 ms
+
+
+C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48\conf
+server.xml
+modify port number..... 
+9080
+
+ <Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+
+
+modify to 
+
+
+
+<Connector port="9080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+
+				Servlets
+
+1. Servlets are like a Java applications but it will run inside a webserver 
+
+WelComeServlet.java
+
+2. To create a Servlet,
+
+javax.servlet package
+
+
+		Servlet Interface
+
+			init()
+			service()
+			destroy()
+
+			getServletConfig()
+			getServletInfo()
+
+		GenericServlet Class
+			
+			will have the default implementation of all the 			methods
+
+		HttpServlet Class
+		
+public class HttpServlet extends GenericServlet
+
+			doGet()
+			doPost()
+
+
+
+			
+
+
+Servlet Life Cycle
+
+
+	1. init()
+
+	2. service()
+
+	3. destroy()
+
+init () method
+
+a. First time, web server will call the init() method to initilize the servlet
+
+b. to initialize the resources like database connection
+
+c. init method will be called only once 
+
+
+
+service() method
+
+a. will be executed always.................
+
+b. your application business logic will be written in service method
+
+
+destroy() method -> at the time of unloading the application or stopping the
+web server
+
+a. will be called by webserver to remove the servlet from web server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class WelcomeServlet implements Servlet
+
+public class WelcomeServlet extends GenericServlet
+
+public class WelcomeServlet extends HttpServlet
+
+
+
+
+
+
+
+	
+public class MyThread extends Thread
+
+public class MyThread implements Runnable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
