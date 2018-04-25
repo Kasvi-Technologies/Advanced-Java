@@ -1,0 +1,471 @@
+https://github.com/Kasvi-Technologies/Advanced-Java
+
+To run web applications, you need to have either web server or application servers
+
+
+Web Server
+	Apache tomcat
+
+
+Application Servers
+
+	Jboss
+	Weblogic
+	Websphere
+
+
+
+WebContent\WEB-INF\classes
+
+
+Apr 23, 2018 10:25:02 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:MyAmazon' did not find a matching property.
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 30 2017 16:26:50 UTC
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.0.48.0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jre1.8.0_161
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_161-b12
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=C:\anil\java\servlets and jsp workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48\endorsed
+Apr 23, 2018 10:25:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=Cp1252
+Apr 23, 2018 10:25:02 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jre1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\CCM;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Perforce;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\akanchar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\utils\eclipse-jee-neon-3-win32-x86_64\eclipse;;.
+Apr 23, 2018 10:25:03 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Apr 23, 2018 10:25:04 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 23, 2018 10:25:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+Apr 23, 2018 10:25:04 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Apr 23, 2018 10:25:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 3784 ms
+Apr 23, 2018 10:25:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2018 10:25:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.48
+Apr 23, 2018 10:25:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Apr 23, 2018 10:25:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Apr 23, 2018 10:25:05 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1773 ms
+
+
+C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-8.0.48\conf
+server.xml
+modify port number..... 
+9080
+
+ <Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+
+
+modify to 
+
+
+
+<Connector port="9080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+
+				Servlets
+
+1. Servlets are like a Java applications but it will run inside a webserver 
+
+WelComeServlet.java
+
+2. To create a Servlet,
+
+javax.servlet package
+
+
+		Servlet Interface
+
+			init()
+			service()
+			destroy()
+
+			getServletConfig()
+			getServletInfo()
+
+		GenericServlet Class
+			
+			will have the default implementation of all the 			methods
+
+		HttpServlet Class
+		
+public class HttpServlet extends GenericServlet
+
+			doGet()
+			doPost()
+
+Gender 
+		<input type="radio" name="gender" value="Male"/> Male
+		<input type="radio" name="gender" value="Female"/> female
+		<br/>
+	Hobbies
+		<input type="checkbox" name="hobbies" value="Watching"/> Watching
+		<input type="checkbox" name="hobbies" value="Playing"/> Playing
+		<input type="checkbox" name="hobbies" value="Singing"/> Singing
+		<br/>
+
+			
+
+
+Servlet Life Cycle
+
+
+	1. init()
+
+	2. service()
+
+	3. destroy()
+
+init () method
+
+a. First time, web server will call the init() method to initilize the servlet
+
+b. to initialize the resources like database connection
+
+c. init method will be called only once 
+
+
+
+service() method
+
+a. will be executed always.................
+
+b. your application business logic will be written in service method
+
+
+destroy() method -> at the time of unloading the application or stopping the
+web server
+
+a. will be called by webserver to remove the servlet from web server
+
+
+
+
+
+
+
+			JSP  (Dynamic web pages)
+HTML's are static web pages
+
+Java Server Pages, it is similar to html. 
+But, JSP's can display dynamic information 
+
+
+<%= request.getAttribute("loginErrorMessage") %>
+
+
+Diffence between ServletConfig, HttpServletRequest, HttpSession and ServletContext
+
+
+HttpSession -> used to store the information which will be availale throorugh out the user session
+
+1. download mysql essential 5.0.45 msi file
+
+2. install the msi file -> follow the default options
+
+3. mysql will be installed in location C:\Program Files\MySQL\MySQL Server 5.0\bin
+
+4. start -> mysql command line client
+
+
+			Filters
+
+1. You can perform any pre processing or post processing of your requests
+
+
+
+Difference between RequestDispatcher and sendRedirect
+
+RequestDispatcher
+sendRedirect	
+
+
+ServletConfig 
+
+HttpServletRequest
+	setAttribute
+	getAttribute
+	getParameter
+
+HttpSession
+		
+ServletContext
+
+	each application will have its own servlet conext. 
+
+
+
+	Cookies
+
+1. it will store the information in the client machine browser
+Cookie
+
+			My sql integration with servlets
+
+create database hpdb;
+
+create table hpdb.user (id int primary key auto_increment, username varchar(100),password varchar(100), emailid varchar(100), gender varchar(6), hobbies varchar(255) );
+
+
+insert into  hpdb.user (username, password, emailid, gender, hobbies) values ('Admin', 'password', 'abc@abc.com', 'Male', 'Watching, Playing');
+
+			Servlet Listeners
+
+If you want moniter your application like
+	a. session created
+	b. session destroyed
+	c. request initialized
+	d. request destroyed
+	e. context initialized
+	f. context destroyed
+	g. session attribte added/updated/removed
+	h. request attribute added/updated/removed
+
+HttpSessionListener 
+HttpSessionAttributeListener  -> 
+
+ServletContextListener 
+ServletContextAttributeListener
+
+ServletRequestListener
+ServletRequestAttributeListener
+
+	product Listing
+
+create table hpdb.product (id int primary key auto_increment, name varchar(100), description varchar(255), price double, type varchar(15));
+
+
+insert into hpdb.product (name, description, price, type) values ('Samsung', 'Samsung mobile', 10000, 'mobile');
+insert into hpdb.product (name, description, price, type) values ('Redmi', 'Redmi Note 5', 20000, 'mobile');
+insert into hpdb.product (name, description, price, type) values ('Lenovo', 'Lenovo mobile', 15000, 'mobile');
+insert into hpdb.product (name, description, price, type) values ('HP', 'Hp laptop', 45000, 'laptop');
+insert into hpdb.product (name, description, price, type) values ('DELL', 'Dell laptop', 25000, 'laptop');
+insert into hpdb.product (name, description, price, type) values ('Case Cover', 'Lenovo Case Cover', 200, 'accessories');
+
+
+				Day 3
+
+Excercise of Displaying all users
+
+a. Default Session time out of web applications are 30 mins. 
+If user is idle for 30 mins, session will be destroyed
+
+b. error pages
+
+c. Servlet Annotations
+using annotations, you no need to register servlets in web.xml. 
+for example for signoutservlet
+@WebServlet("/signoutservlet")
+
+		JSP - Indepth concepts
+
+d. Java Server Pages to build dynamic web applications
+
+Servlets -> for business logic
+JSP -> presentation logic 
+
+
+e. Declation section, expression section, Scriptlets
+
+f. jsp life cycle methods
+g. JSP convert to servelt
+
+	generate war (Web archive)
+
+	deploy your war into tomcat webapps folder and then start tomcat  
+
+	C:\utils\apache-tomcat-8.0.48-windows-x64\apache-tomcat-	8.0.48\bin>catalina.bat start
+	
+	access jsp from browser
+	
+	go to work folder in tomcat to check converted servlet
+
+h. how to handle exceptiond in JSP
+errorPage, isErrorPage and exception object
+
+i.JSP Actions
+ 
+
+j. implicit objects
+k. jsp expression language
+9. custom tags
+	a. create a class -> which has the business logic, and specify all 		attributes which you want to use in jsp custom tags
+		
+	b. create a tld file, which contains the information about your class         (registering custom tags related class)
+	tld - taglib directive
+
+	c. register your tld file in web.xml 
+
+	d. use taglig directive in jsp to load tld file
+
+	e. use the custom tags in jsp (it will call the custom java class)	
+
+
+For ex:
+
+<jsp-config>
+  <taglib>
+  	<taglib-uri>tlds/mytags</taglib-uri>
+  	<taglib-location>/WEB-INF/tlds/numberformatter.tld</taglib-location>
+  </taglib>
+  </jsp-config>
+
+<%@ taglib uri="tlds/mytags" prefix="mytags"%>
+
+
+<mytags:formatNumber number="100050.574" format="#,###.00"/><br><br>
+
+<mytags:formatNumber number="1234.567" format="$# ###.00"/><br><br>
+
+
+
+
+<bean id="pDao" class="..........ProductDAO"/>
+
+
+<bean id="pService" class="..........ProductService">
+	<property name="productDAO" ref="pDao'/>
+</bean>
+
+<bean id="pController" class="..........ProductController">
+	<property name="productService" ref="pService'/>
+</bean>
+
+
+Autowiring -> you no need to explicitly inject the dependent beans
+
+<bean id="productDAo" class="..........ProductDAO"/>
+
+<bean id="productService" class="..........ProductService" auto-wire="byName"/>
+
+<bean id="pController" class="..........ProductController" auto-wire="byName"/>
+
+	
+
+
+@Controller
+Public class ProductController {
+	
+	@Autowired
+	private ProductService productservice;
+
+}
+
+@Service
+Public class ProductService {
+	
+	@Autowired
+	private ProductDAO productDAO;
+
+}
+
+@Repository
+Public class ProductDAO {
+	
+	//database logic
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class WelcomeServlet implements Servlet
+
+public class WelcomeServlet extends GenericServlet
+
+public class WelcomeServlet extends HttpServlet
+
+
+
+
+
+
+
+	
+public class MyThread extends Thread
+
+public class MyThread implements Runnable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
